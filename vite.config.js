@@ -1,6 +1,7 @@
 // vite.config.js
 export default {
   // config options
-  // 'base' : '/<REPO>/'
-  'base' : './'
+  // 'base' : 'https://github.com/tripdragon/notrobo21234/'
+  'base' : 'notrobo21234/'
+  // 'base' : './'
 }
