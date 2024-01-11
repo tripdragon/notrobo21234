@@ -112,7 +112,8 @@ const cube = new THREE.Mesh( geometry, material );
 		}
     
 
-var result = await new GLTFLoader().loadAsync("../models/catlike1.glb");
+var result = await new GLTFLoader().loadAsync("./models/catlike1.glb");
+// var result = await new GLTFLoader().loadAsync("../models/catlike1.glb");
 // debugger
 let model1 = result.scene;
 // result.scene.scale.setScalar(0.2)
